@@ -26,6 +26,8 @@ export default function Home() {
             loop
             muted
             playsInline
+            preload="auto"
+            webkit-playsinline="true"
             className="absolute inset-0 w-full h-full object-cover -z-0 pointer-events-none"
           />
           {/* Overlay escuro */}
